@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('pics/volunteer.gif') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.section {
+    padding: 40px 20px;
+    background-color: #e3f2fd;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-10px);
+    background-color: #bbdefb;
+}
+
+.section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0d47a1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #212121;
+    text-align: justify;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    color: #0d47a1;
+}
+
+.section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #0d47a1;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.section .cta-button:hover {
+    background-color: #1976d2;
+}
+.table-container {
+    max-height: 300px; /* Set the maximum height for the table */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Container for Table */
+.table-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+.volunteer-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Table Header */
+.volunteer-table thead {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 1;
+}
+
+.volunteer-table th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+/* Table Body Rows */
+.volunteer-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Alternate Row Background for Readability */
+.volunteer-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover Effect for Rows */
+.volunteer-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* No Data Row Styling */
+.no-data {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
